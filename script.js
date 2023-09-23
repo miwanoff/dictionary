@@ -7,6 +7,7 @@ const words = {
 
 let mistakes = 0;
 let correctAnsws = 0;
+let n = prompt("How many?");
 loop1:
 while (true) {
   for (const key in words) {
